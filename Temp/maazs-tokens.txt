@@ -1,0 +1,373 @@
+--01/10/2019----------------------------------------------------- 
+Lexical Tokens for a.spl 
+--11:34:50.33----------------------------------------------------- 
+Token: ProgA ID
+Token: COLON
+Token: CODE
+Token: WRITE
+Token: BRA
+Token: 'h' LETTER
+Token: COMMA
+Token: 'e' LETTER
+Token: COMMA
+Token: 'l' LETTER
+Token: COMMA
+Token: 'l' LETTER
+Token: COMMA
+Token: 'o' LETTER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Token: ProgA ID
+Token: FULLSTOP
+--01/10/2019----------------------------------------------------- 
+Lexical Tokens for b.spl 
+--11:39:07.66----------------------------------------------------- 
+Token: ProgB ID
+Token: COLON
+Token: DECLARATIONS
+Token: a ID
+Token: COMMA
+Token: b ID
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Token: c ID
+Token: OF
+Token: TYPE
+Token: CHARACTER
+Token: SEMICOLON
+Token: d ID
+Token: COMMA
+Token: e ID
+Token: OF
+Token: TYPE
+Token: REAL
+Token: SEMICOLON
+Token: CODE
+Token: READ
+Token: BRA
+Token: a ID
+Token: KET
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Token: b ID
+Token: KET
+Token: SEMICOLON
+Token: IF
+Token: a ID
+Token: GREATER_THAN
+Token: b ID
+Token: THEN
+Token: WRITE
+Token: BRA
+Token: 'A' LETTER
+Token: KET
+Token: ELSE
+Token: WRITE
+Token: BRA
+Token: 'B' LETTER
+Token: KET
+Token: ENDIF
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Token: d ID
+Token: KET
+Token: SEMICOLON
+Token: d ID
+Token: TIMES
+Token: 2.3 DIGIT
+Token: ASSIGN
+Token: e ID
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Token: e ID
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Token: c ID
+Token: KET
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Token: c ID
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Token: ProgB ID
+Token: FULLSTOP
+--01/10/2019----------------------------------------------------- 
+Lexical Tokens for c.spl 
+--11:39:17.63----------------------------------------------------- 
+Token: Prog3 ID
+Token: COLON
+Token: DECLARATIONS
+Token: a ID
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Token: CODE
+Token: FOR
+Token: a ID
+Token: IS
+Token: 1 DIGIT
+Token: BY
+Token: 1 DIGIT
+Token: TO
+Token: 13 DIGIT
+Token: DO
+Token: IF
+Token: NOT
+Token: a ID
+Token: EQUAL
+Token: 7 DIGIT
+Token: THEN
+Token: WRITE
+Token: BRA
+Token: a ID
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDIF
+Token: ENDFOR
+Token: SEMICOLON
+Token: 0 DIGIT
+Token: ASSIGN
+Token: a ID
+Token: SEMICOLON
+Token: DO
+Token: a ID
+Token: PLUS
+Token: 1 DIGIT
+Token: ASSIGN
+Token: a ID
+Token: SEMICOLON
+Token: IF
+Token: NOT
+Token: a ID
+Token: EQUAL
+Token: 6 DIGIT
+Token: AND
+Token: a ID
+Token: NOT_EQUAL
+Token: 8 DIGIT
+Token: THEN
+Token: WRITE
+Token: BRA
+Token: a ID
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDIF
+Token: WHILE
+Token: a ID
+Token: LESS_THAN
+Token: 14 DIGIT
+Token: ENDDO
+Token: SEMICOLON
+Token: 0 DIGIT
+Token: ASSIGN
+Token: a ID
+Token: SEMICOLON
+Token: WHILE
+Token: a ID
+Token: LESS_THAN
+Token: 12 DIGIT
+Token: DO
+Token: WRITE
+Token: BRA
+Token: a ID
+Token: KET
+Token: SEMICOLON
+Token: a ID
+Token: PLUS
+Token: 1 DIGIT
+Token: ASSIGN
+Token: a ID
+Token: ENDWHILE
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Token: Prog3 ID
+Token: FULLSTOP
+--01/10/2019----------------------------------------------------- 
+Lexical Tokens for d.spl 
+--11:39:23.81----------------------------------------------------- 
+Token: Prog4D ID
+Token: COLON
+Token: DECLARATIONS
+Token: r1 ID
+Token: COMMA
+Token: r2 ID
+Token: COMMA
+Token: r3 ID
+Token: OF
+Token: TYPE
+Token: REAL
+Token: SEMICOLON
+Token: CODE
+Token: -2.4 DIGIT
+Token: ASSIGN
+Token: r1 ID
+Token: SEMICOLON
+Token: -34.989 DIGIT
+Token: ASSIGN
+Token: r2 ID
+Token: SEMICOLON
+Token: r1 ID
+Token: TIMES
+Token: r2 ID
+Token: DIVIDE
+Token: 7.4 DIGIT
+Token: ASSIGN
+Token: r3 ID
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Token: r3 ID
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Token: r1 ID
+Token: KET
+Token: SEMICOLON
+Token: r1 ID
+Token: PLUS
+Token: r3 ID
+Token: ASSIGN
+Token: r3 ID
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Token: r3 ID
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Token: Prog4D ID
+Token: FULLSTOP
+--01/10/2019----------------------------------------------------- 
+Lexical Tokens for e.spl 
+--11:39:27.17----------------------------------------------------- 
+Token: ProgV ID
+Token: COLON
+Token: DECLARATIONS
+Token: integer ID
+Token: COMMA
+Token: i ID
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Token: CODE
+Token: READ
+Token: BRA
+Token: integer ID
+Token: KET
+Token: SEMICOLON
+Token: IF
+Token: integer ID
+Token: LESS_THAN_OR_EQUAL
+Token: 5 DIGIT
+Token: OR
+Token: integer ID
+Token: GREATER_THAN_OR_EQUAL
+Token: 12 DIGIT
+Token: THEN
+Token: WRITE
+Token: BRA
+Token: integer ID
+Token: KET
+Token: ENDIF
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Token: BRA
+Token: 36 DIGIT
+Token: -1 DIGIT
+Token: KET
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: FOR
+Token: integer ID
+Token: IS
+Token: -1 DIGIT
+Token: BY
+Token: -1 DIGIT
+Token: TO
+Token: -5 DIGIT
+Token: DO
+Token: WRITE
+Token: BRA
+Token: integer ID
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDFOR
+Token: SEMICOLON
+Token: -1 DIGIT
+Token: ASSIGN
+Token: i ID
+Token: SEMICOLON
+Token: FOR
+Token: integer ID
+Token: IS
+Token: i ID
+Token: TIMES
+Token: i ID
+Token: TIMES
+Token: i ID
+Token: BY
+Token: i ID
+Token: TIMES
+Token: i ID
+Token: TIMES
+Token: i ID
+Token: TIMES
+Token: i ID
+Token: TIMES
+Token: i ID
+Token: TO
+Token: i ID
+Token: TIMES
+Token: i ID
+Token: TIMES
+Token: BRA
+Token: i ID
+Token: PLUS
+Token: i ID
+Token: PLUS
+Token: i ID
+Token: PLUS
+Token: i ID
+Token: PLUS
+Token: i ID
+Token: KET
+Token: DO
+Token: WRITE
+Token: BRA
+Token: integer ID
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDFOR
+Token: ENDP
+Token: ProgV ID
+Token: FULLSTOP

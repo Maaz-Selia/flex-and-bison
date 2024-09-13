@@ -1,0 +1,7 @@
+C:\Users\maazs\Desktop\Uni\Year 3\1st Semester\Languages and their compilers\LATC-ACW-SVN\Temp\GenerateTestingBatFile\GenerateTestingBatFile\bin\Debug\GenerateTestingBatFile.exe.config
+C:\Users\maazs\Desktop\Uni\Year 3\1st Semester\Languages and their compilers\LATC-ACW-SVN\Temp\GenerateTestingBatFile\GenerateTestingBatFile\bin\Debug\GenerateTestingBatFile.exe
+C:\Users\maazs\Desktop\Uni\Year 3\1st Semester\Languages and their compilers\LATC-ACW-SVN\Temp\GenerateTestingBatFile\GenerateTestingBatFile\bin\Debug\GenerateTestingBatFile.pdb
+C:\Users\maazs\Desktop\Uni\Year 3\1st Semester\Languages and their compilers\LATC-ACW-SVN\Temp\GenerateTestingBatFile\GenerateTestingBatFile\obj\Debug\GenerateTestingBatFile.csprojAssemblyReference.cache
+C:\Users\maazs\Desktop\Uni\Year 3\1st Semester\Languages and their compilers\LATC-ACW-SVN\Temp\GenerateTestingBatFile\GenerateTestingBatFile\obj\Debug\GenerateTestingBatFile.csproj.CoreCompileInputs.cache
+C:\Users\maazs\Desktop\Uni\Year 3\1st Semester\Languages and their compilers\LATC-ACW-SVN\Temp\GenerateTestingBatFile\GenerateTestingBatFile\obj\Debug\GenerateTestingBatFile.exe
+C:\Users\maazs\Desktop\Uni\Year 3\1st Semester\Languages and their compilers\LATC-ACW-SVN\Temp\GenerateTestingBatFile\GenerateTestingBatFile\obj\Debug\GenerateTestingBatFile.pdb

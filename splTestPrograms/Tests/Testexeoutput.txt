@@ -1,0 +1,481 @@
+Test001
+Test001-successful
+Test002
+Test002-successful
+Test003
+Test003-successful
+Test004
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test004-successful
+Test005
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test005-successful
+Test006
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test006-successful
+Test007
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test007-successful
+Test008
+Test008-successful
+Test009
+Test009-successful
+Test010
+Test010-successful
+Test011
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test011-successful
+Test012
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test012-successful
+Test013
+Test013-successful
+Test014
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test014-successful
+Test015
+Test015-successful
+Test016
+Test016-successful
+Test017
+Test017-successful
+Test018
+Test018.c: In function 'main':
+Test018.c:25:4: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  f = "x";
+    ^
+Test018-successful
+Test019
+Test019-successful
+Test020
+Test020-successful
+Test021
+Test021-successful
+Test022
+Test022-successful
+Test023
+Test023-successful
+Test024
+Test024-successful
+Test025
+Test025.c: In function 'main':
+Test025.c:25:4: warning: assignment to 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  a = "x";
+    ^
+Test025-successful
+Test026
+Test026-successful
+Test027
+Test027-successful
+Test028
+Test028-successful
+Test029
+Test029.c: In function 'main':
+Test029.c:25:4: error: incompatible types when assigning to type 'float' from type 'char *'
+  d = "x";
+    ^
+Test029-successful
+Test030
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test030-successful
+Test031
+Test031-successful
+Test032
+Test032-successful
+Test033
+Test033-successful
+Test034
+Test034.c: In function 'main':
+Test034.c:25:2: error: 'x' undeclared (first use in this function)
+  x = 1;
+  ^
+Test034.c:25:2: note: each undeclared identifier is reported only once for each function it appears in
+Test034-successful
+Test035
+Test035.c: In function 'main':
+Test035.c:21:8: error: conflicting types for 'a'
+  float a, e;
+        ^
+Test035.c:19:6: note: previous declaration of 'a' was here
+  int a, b, c;
+      ^
+Test035-successful
+Test036
+Test036-successful
+Test037
+Test037.c: In function 'main':
+Test037.c:25:2: error: 'Test' undeclared (first use in this function)
+  Test = 1;
+  ^~~~
+Test037.c:25:2: note: each undeclared identifier is reported only once for each function it appears in
+Test037-successful
+Test038
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test038-successful
+Test039
+Test039-successful
+Test040
+Test040-successful
+Test041
+Test041.c: In function 'main':
+Test041.c:25:4: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  g = "x";
+    ^
+Test041-successful
+Test042
+Test042-successful
+Test043
+Test043.c: In function 'main':
+Test043.c:25:4: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  f = "x";
+    ^
+Test043-successful
+Test044
+Test044-successful
+Test045
+Test045.c: In function 'main':
+Test045.c:25:4: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  f = "x";
+    ^
+Test045-successful
+Test046
+Test046-successful
+Test047
+Test047-successful
+Test048
+Test048-successful
+Test049
+Test049-successful
+Test050
+Test050.c: In function 'main':
+Test050.c:25:6: error: 'x' undeclared (first use in this function)
+  a = x;
+      ^
+Test050.c:25:6: note: each undeclared identifier is reported only once for each function it appears in
+Test050-successful
+Test051
+Test051.c: In function 'main':
+Test051.c:25:6: error: two or more data types in declaration specifiers
+  int int;
+      ^~~
+Test051.c:25:2: warning: useless type name in empty declaration
+  int int;
+  ^~~
+Test051.c:27:6: error: expected identifier or '(' before '=' token
+  int = 1;
+      ^
+Test051-successful
+Test052
+Test052.c: In function 'main':
+Test052.c:25:2: warning: useless type name in empty declaration
+  int volatile;
+  ^~~
+Test052.c:27:11: error: expected identifier or '(' before '=' token
+  volatile = 1;
+           ^
+Test052-successful
+Test053
+Test053-successful
+Test054
+Test054-successful
+Test055
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test055-successful
+Test056
+Test056-successful
+Test057
+Test057-successful
+Test058
+Test058.c: In function 'main':
+Test058.c:7:31: error: '_Generic' selector of type 'double' is not compatible with any association
+ #define print_any(X) _Generic((X), int: print_int, char *: print_pchar, char: print_char, float: print_float)(X)
+                               ^
+Test058.c:25:2: note: in expansion of macro 'print_any'
+  print_any(3.14159);
+  ^~~~~~~~~
+Test058-successful
+Test059
+Test059.c: In function 'main':
+Test059.c:7:31: error: '_Generic' selector of type 'double' is not compatible with any association
+ #define print_any(X) _Generic((X), int: print_int, char *: print_pchar, char: print_char, float: print_float)(X)
+                               ^
+Test059.c:25:2: note: in expansion of macro 'print_any'
+  print_any(-3.14159);
+  ^~~~~~~~~
+Test059-successful
+Test060
+Test060-successful
+Test061
+Test061-successful
+Test062
+Test062-successful
+Test063
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test063-successful
+Test064
+Test064.c: In function 'main':
+Test064.c:7:31: error: '_Generic' selector of type 'double' is not compatible with any association
+ #define print_any(X) _Generic((X), int: print_int, char *: print_pchar, char: print_char, float: print_float)(X)
+                               ^
+Test064.c:27:2: note: in expansion of macro 'print_any'
+  print_any(3.14159);
+  ^~~~~~~~~
+Test064-successful
+Test065
+Test065-successful
+Test066
+Test066-successful
+Test067
+Test067.c: In function 'main':
+Test067.c:25:4: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  f = "x";
+    ^
+Test067-successful
+Test068
+Test068.c: In function 'main':
+Test068.c:27:4: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  f = "x";
+    ^
+Test068-successful
+Test069
+Test069-successful
+Test070
+Test070-successful
+Test071
+Test071-successful
+Test072
+Test072-successful
+Test073
+Test073-successful
+Test074
+Test074-successful
+Test075
+Test075-successful
+Test076
+Test076-successful
+Test077
+Test077-successful
+Test078
+Test078-successful
+Test079
+Test079-successful
+Test080
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test080-successful
+Test081
+Test081-successful
+Test082
+Test082-successful
+Test083
+Test083-successful
+Test084
+Test084-successful
+Test085
+Test085-successful
+Test086
+Test086-successful
+Test087
+Test087-successful
+Test088
+Test088-successful
+Test089
+Test089-successful
+Test090
+Test090-successful
+Test091
+Test091-successful
+Test092
+Test092-successful
+Test093
+Test093-successful
+Test094
+Test094-successful
+Test095
+Test095-successful
+Test096
+Test096-successful
+Test097
+Test097-successful
+Test098
+Test098-successful
+Test099
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test099-successful
+Test100
+Test100-successful
+Test101
+Test101-successful
+Test102
+Test102-successful
+Test103
+Test103-successful
+Test104
+Test104-successful
+Test105
+Test105-successful
+Test106
+Test106-successful
+Test107
+Test107-successful
+Test108
+Test108-successful
+Test109
+Test109-successful
+Test110
+Test110.c: In function 'main':
+Test110.c:21:4: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  a = "a" + 1;
+    ^
+Test110-successful
+Test111
+Test111.c: In function 'main':
+Test111.c:21:4: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  a = "b" - 1;
+    ^
+Test111-successful
+Test112
+Test112.c: In function 'main':
+Test112.c:21:10: error: invalid operands to binary * (have 'char *' and 'int')
+  a = "a" * 1;
+      ~~~ ^
+Test112-successful
+Test113
+Test113.c: In function 'main':
+Test113.c:21:10: error: invalid operands to binary / (have 'char *' and 'int')
+  a = "b" / 1;
+      ~~~ ^
+Test113-successful
+Test114
+Test114.c: In function 'main':
+Test114.c:21:10: error: invalid operands to binary * (have 'char *' and 'int')
+  a = "b" * 2-6;
+      ~~~ ^
+Test114-successful
+Test115
+Test115-successful
+Test116
+Test116-successful
+Test117
+Test117-successful
+Test118
+Test118-successful
+Test119
+Test119-successful
+Test120
+Test120-successful
+Test121
+Test121-successful
+Test122
+Test122-successful
+Test123
+Error : Exiting syntax error
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../libmingw32.a(main.o):(.text.startup+0xb0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Test123-successful
+Test124
+Test124-successful
+Test125
+Test125-successful
+Test126
+Test126-successful
+Test127
+Test127-successful
+Test128
+Test128-successful
+Test129
+Test129-successful
+Test130
+Test130-successful
+Test131
+Test131-successful
+Test132
+Test132-successful
+Test133
+Test133-successful
+Test134
+Test134-successful
+Test135
+Test135-successful
+Test136
+Test136-successful
+Test137
+Test137-successful
+Test138
+Test138-successful
+Test139
+Test139-successful
+Test140
+Test140-successful
+Test141
+Test141-successful
+Test142
+Test142-successful
+Test143
+Test143-successful
+Test144
+Test144-successful
+Test145
+Test145-successful
+Test146
+Test146-successful
+Test147
+Test147-successful
+Test148
+Test148-successful
+Test149
+Test149-successful
+Test150
+Test150-successful
+Test151
+Test151-successful
+Test152
+Test152-successful
+Test153
+Test153-successful
+Test154
+Test154-successful
+Test155
+Test155-successful
+Test156
+Test156-successful
+Test157
+Test157.c: In function 'main':
+Test157.c:22:10: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  for ( a = "a" ; _by = 1 , ( a -( "g" ))*((_by > 0) - (_by < 0)) <= 0 ; a += _by) {
+          ^
+Test157.c:22:32: error: invalid operands to binary - (have 'int' and 'char *')
+  for ( a = "a" ; _by = 1 , ( a -( "g" ))*((_by > 0) - (_by < 0)) <= 0 ; a += _by) {
+                                ^
+Test157-successful
+Test158
+Test158-successful
+Test159
+Test159-successful
+Test160
+Test160-successful

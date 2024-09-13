@@ -1,0 +1,98 @@
+
+
+
+
+/* ASK PROFESSOR ABOUT "CHECK" AND "EBNF" TAGS */
+
+
+
+
+<program> ::= <identifier> ":" <block> endp <identifier> "."
+
+<block> ::= declarations <declaration_block> code <statement_list> | code <statement_list>
+
+<identifier_list> ::= <identifier> | <identifier_list> "," <identifier>
+
+<declaration_block> ::= <identifier_list> of type <type> ";" | <declaration_block> <identifier_list> of type <type> ";"
+
+<type> ::= character | integer | real
+
+<statement_list> ::= <statement> | <statement_list> ";" <statement>
+
+<statment> ::= <assignment_statement> | <if_statement> | <do_statement> | <while_statement> | <for_statement> | <write_statement> | <read_statement>
+
+<assignment_statement> ::= <expression> "->" <identifier>
+
+<if_statement> ::= if <conditional> then <statement_list> endif | if <conditional> then <statement_list> else <statement_list> endif
+
+<do_statement> ::= do <statement_list> while <conditional> enddo
+
+<while_statement> ::= while <conditional> do <statement_list> endwhile
+
+<for_statement> ::= for <identifier> is <expression> by <expression> to <expression> do <statement_list> endfor
+
+<write_statement> CHECK::= write "(" <output_list> ")" | newline
+
+<read_statement> CHECK::= read "(" <identifier> ")"
+
+<output_list> ::= <value> | <output_list> "," <value>
+
+///////////////////////////////
+
+<logical_operator> ::= and | or
+
+<basic_conditional> ::= <expression> <comparator> <expression> | not <basic_conditional>
+
+<conditional> ::= <basic_conditional> | <conditional> <logical_operator> <basic_conditional>
+
+///////////////////////////////
+
+<conditional> EBNF::= <expression> <comparator> <expression> | not <conditional> | <conditional> (and | or) <conditional>
+
+<comparator> ::= "=" | "<>" | "<" | ">" | "<=" | ">="
+
+<expression> NON-EBNF::= <term> | <expression> "+" <term> | <expression> "-" <term>
+
+<expression> EBNF::= <term> | <expression> ("+" | "-") <term>
+
+<term> NON-EBNF::= <value> | <term> "*" <value> | <term> "/" <value>
+
+<term> EBNF::= <value> | <term> ("*" | "/") <value>
+
+<value> ::= <identifier> | <constant> | "(" <expression> ")"
+
+<constant> ::= <number_constant> | <character_constant>
+
+<character_constant> ::= "'" <character> "'"
+
+<number_constant> CHECK::= <digit> | "." <digit> | <number_constant> <digit> | <number_constant> "." <digit>
+
+<identifier> CHECK::= <character> | <identifier> <character> | <identifier> <digit>
+
+<character> ::= [a-zA-Z]
+
+<digit> ::= [0-9]
+
+
+
+EBNF
+
+
+<conditional> EBNF (shift reduce fixed also above)::= <expression> <comparator> <expression> | not <conditional> | <conditional> (and | or) <conditional>
+
+<expression> EBNF::= <term> | <expression> ("+" | "-") <term>
+
+<term> EBNF::= <value> | <term> ("*" | "/") <value>
+
+
+
+CHECK
+
+
+<write_statement> CHECK::= write "(" <output_list> ")" | newline
+
+<read_statement> CHECK::= read "(" <identifier> ")"
+
+<number_constant> CHECK (allowed to have 2 decimal points?)::= <digit> | "." <digit> | <number_constant> <digit> | <number_constant> "." <digit>
+
+<identifier> CHECK::= <character> | <identifier> <character> | <identifier> <digit>

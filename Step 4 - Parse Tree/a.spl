@@ -1,0 +1,10 @@
+ProgA:
+
+CODE
+	
+
+  WRITE('h','e','l','l','o');
+  NEWLINE;
+  12 -> x
+  
+ENDP ProgA.

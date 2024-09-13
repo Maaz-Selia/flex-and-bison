@@ -1,0 +1,40 @@
+@echo off
+title .spl to .exe
+
+echo Test00{0}
+cgen < Test001.spl > Test001.c
+gcc -o Test001.exe Test001.c
+echo Test00{0}-successful
+echo Test00{0}
+cgen < Test002.spl > Test002.c
+gcc -o Test002.exe Test002.c
+echo Test00{0}-successful
+echo Test00{0}
+cgen < Test003.spl > Test003.c
+gcc -o Test003.exe Test003.c
+echo Test00{0}-successful
+echo Test00{0}
+cgen < Test004.spl > Test004.c
+gcc -o Test004.exe Test004.c
+echo Test00{0}-successful
+echo Test00{0}
+cgen < Test005.spl > Test005.c
+gcc -o Test005.exe Test005.c
+echo Test00{0}-successful
+echo Test00{0}
+cgen < Test006.spl > Test006.c
+gcc -o Test006.exe Test006.c
+echo Test00{0}-successful
+echo Test00{0}
+cgen < Test007.spl > Test007.c
+gcc -o Test007.exe Test007.c
+echo Test00{0}-successful
+echo Test00{0}
+cgen < Test008.spl > Test008.c
+gcc -o Test008.exe Test008.c
+echo Test00{0}-successful
+echo Test00{0}
+cgen < Test009.spl > Test009.c
+gcc -o Test009.exe Test009.c
+echo Test00{0}-successful
+pause
